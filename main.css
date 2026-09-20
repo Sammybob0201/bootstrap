@@ -40,11 +40,9 @@ body {
   text-transform: uppercase;
   color: yellow !important;
 }
-*/ .nav-link:hover {
+.nav-link:hover {
   color: blue !important;
 }
-
-
 
 .carousel-item img {
   width: 1500px !important;
@@ -79,9 +77,177 @@ body {
   background-color: #06bc7c;
 }
 .carousel-caption {
-  bottom: 30%;
+  bottom: 50%;
 }
 
 .navbar-collapse {
   flex-grow: 0 !important;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.712);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footer .row:last-child {
+  border-top: 1px #8a1cf6;
+} /* ABOUT SECTION */
+
+.about-section {
+  background-color: #111;
+  color: white;
+  padding: 60px 0;
+}
+
+.about-section h5 {
+  color: #06f3a2;
+  font-weight: bold;
+}
+
+.about-section h2 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  line-height: 1.8;
+}
+
+.about-section blockquote {
+  font-weight: bold;
+  font-size: 20px;
+  border-left: 4px solid #06f3a2;
+  padding-left: 15px;
+}
+
+/* STATISTICS */
+
+.about-section h3 {
+  font-weight: bold;
+  color: #06f3a2;
+}
+
+/* SPEAKERS SECTION */
+
+/* AGENDA SECTION */
+
+/* EXPERIENCE SECTION */
+
+.experience-section {
+  background-color: #111;
+  color: white;
+}
+
+.experience-section h5 {
+  color: #06f3a2;
+  font-weight: bold;
+}
+
+.experience-section h2 {
+  font-weight: bold;
+}
+
+.experience-card {
+  background-color: #1c1c1c;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(6, 243, 162, 0.2);
+}
+
+.experience-card i {
+  font-size: 40px;
+  color: #06f3a2;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.experience-card h4 {
+  margin-bottom: 15px;
+}
+
+/* COUNTDOWN SECTION */
+
+.countdown-section {
+  background-color: #8500ff;
+  color: white;
+}
+
+.countdown-section h1 {
+  font-weight: bold;
+}
+
+.countdown-section h2 {
+  color: #06f3a2;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.countdown-section p {
+  font-size: 20px;
+}
+
+.subscribe-btn {
+  background-color: transparent;
+  color: #8a1cf6;
+  border: 2px solid #8a1cf6;
+  padding: 8px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe-btn:hover {
+  background-color: #8a1cf6;
+  color: white;
+  box-shadow: 0 0 15px #8a1cf6;
+}
+
+.nexus-title {
+  color: #ffd700;
+  text-shadow: 2px 2px 8px #8a1cf6;
+}
+
+/* Exact Purple Gradient Styling to match your layout background */
+.gradient-section {
+  background: linear-gradient(135deg, #0d0139 0%, #3e0474 45%, #7e039f 100%);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+/* Header Text Adjustments */
+.text-speaker-label {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+}
+
+.main-speaker-title {
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+/* Navigation Slider Arrows Styling */
+.speaker-carousel-control {
+  width: auto;
+  font-size: 2.2rem;
+  opacity: 0.5;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+  z-index: 10;
+}
+
+.speaker-carousel-control:hover {
+  opacity: 1;
+  color: #fff;
+  transform: translateY(-50%) scale(1.1);
 }
